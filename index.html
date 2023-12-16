@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div class="element">
+      <div class="element-px">
+        <div class="top-navigation">
+          <img class="logo" src="img/logo-2.svg" />
+          <div class="navbar">
+            <div class="text-wrapper">SERVICES</div>
+            <div class="text-wrapper">ABOUT US</div>
+            <div class="text-wrapper">CONTACT US</div>
+            <div class="text-wrapper">CAREERS</div>
+          </div>
+        </div>
+        <div class="content">
+        <div class="hero-section">
+          <div class="frame">
+            <p class="we-crush-your">We Crush Your Competitors, Goals, And Sales Records - Without The B.s.</p>
+            <button class="button"><div class="get-free">GET FREE CONSULTATION</div></button>
+          </div>
+        </div>
+        </div>
+
+        <script>
+          function scrollAppear() {
+              var introText = document.querySelector('.frame');
+              var introPosition = introText.getBoundingClientRect().top;
+              var screenPosition = window.innerHeight / 3.0;
+  
+              if (introPosition < screenPosition) {
+                  introText.classList.add('visible');
+              }
+          }
+  
+          
+          scrollAppear();
+  
+          window.addEventListener('scroll', scrollAppear);
+      </script>
+    
+        <div class="div">
+          <img class="image" src="img/image-2.png" />
+          <div class="frame-2">
+            <div class="frame-3"><p class="text-wrapper-2">Web &amp; Mobile App Development</p></div>
+            <p class="p">
+              Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor
+              content and engagement methods to respond to different intents shown by your potential customers who
+              interact with your business online.
+            </p>
+            <button class="button"><div class="get-free">LEARN MORE</div></button>
+          </div>
+        </div>
+
+        <div class="frame-4">
+          <div class="frame-2">
+            <div class="frame-3"><div class="text-wrapper-2">Digital Strategy Consulting</div></div>
+            <p class="p">
+              Your digital strategy should complement the overall marketing strategy of the company. In online
+              marketing, each component will never work in isolation and every business needs a different mix. We
+              provide a clear concept and strategic overview to find the most efficient model for your business.
+            </p>
+            <button class="button"><div class="get-free">LEARN MORE</div></button>
+          </div>
+          <img class="img" src="img/image-1.png" />
+        </div>
+
+        <footer class="footer">
+          <div class="frame-5">
+            <div class="frame-6">
+              <img class="logo" src="img/logo-3.svg" />
+              <p class="text-wrapper-3">
+                Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve
+                single objective - your business results.
+              </p>
+            </div>
+            <div class="frame-7">
+              <div class="frame-8">
+                <div class="text-wrapper-4">Our Technologies</div>
+                <div class="frame-3">
+                  <div class="text-wrapper-5">Reactjs</div>
+                  <div class="text-wrapper-6">Gatsby</div>
+                  <div class="text-wrapper-6">Nextjs</div>
+                  <div class="text-wrapper-6">Nodejs</div>
+                  <div class="text-wrapper-6">Graphql</div>
+                  <div class="text-wrapper-6">Laravel</div>
+                </div>
+              </div>
+              <div class="frame-8">
+                <div class="text-wrapper-4">Our Services</div>
+                <div class="frame-9">
+                  <div class="social-media">Social Media Marketing</div>
+                  <p class="text-wrapper-7">Web &amp; Mobile App Development</p>
+                  <div class="text-wrapper-7">Data &amp; Analytics</div>
+                  <div class="text-wrapper-7">Google Marketing Solutions</div>
+                  <div class="text-wrapper-7">Search Engine Optimization</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-10">
+            <img class="line" src="img/line-6.svg" />
+            <div class="frame-11">
+              <div class="text-wrapper-5">Privacy Policy</div>
+              <img class="line-2" src="img/line-7.svg" />
+              <div class="text-wrapper-5">Terms &amp; Conditions</div>
+            </div>
+          </div>
+        </footer>
+        
+      </div>
+    </div>
+  </body>
+</html>
